@@ -9,7 +9,7 @@
 
 // The full URL to your CRDP service endpoint.
 // If running locally, you can use 'http://localhost:8080' or similar.
-$crdp_service_url = 'http://crdpdemo';
+$crdp_service_url = 'http://ENTER_YOUR_URL';
 
 // The name of the Protection Policy you want to use for data protection.
 // This policy must be available to the CRDP service from the connected CipherTrust Manager.
