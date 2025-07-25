@@ -1,16 +1,14 @@
 <?php
 //  CipherTrust CRDP PHP Application (for Kubernetes with No Authentication)
 //  This script provides a simple web interface to interact with a
-//  CipherTrust RESTful Data Protection (CRDP) service running in Kubernetes.
+//  CipherTrust RESTful Data Protection (CRDP) service.
 //  This version assumes the CRDP endpoint requires no authentication.
 
 // --- Configuration ---
 // Replace these values with your CRDP service details.
 
 // The full URL to your CRDP service endpoint.
-// Your Kubernetes Ingress may expose CRDP under a specific path.
-// Check your Ingress configuration and include the path here if needed.
-// Example if Ingress path is '/crdp-api': $crdp_service_url = 'http://crdpdemo/crdp-api';
+// If running locally, you can use 'http://localhost:8080' or similar.
 $crdp_service_url = 'http://crdpdemo';
 
 // The name of the Protection Policy you want to use for data protection.
